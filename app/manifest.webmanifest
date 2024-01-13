@@ -1,0 +1,31 @@
+{
+  "short_name": "UI Toggle App",
+  "name": "UI Toggle App",
+  "icons": [
+    {
+      "src": "logo/uta_logo_24.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "logo/uta_logo_64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "logo/uta_logo_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "logo/uta_logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "http://localhost:3000/",
+  "background_color": "#67e8f9",
+  "display": "fullscreen",
+  "theme_color": "#67e8f9",
+  "description": "This is a UI Toggle App created by Anthony Yiu - Just for fun!"
+}
