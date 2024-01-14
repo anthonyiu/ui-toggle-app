@@ -19,8 +19,8 @@ const Colour = ({
   setBgColour: (colour: string) => void;
 }) => {
   return (
-    <div>
-      <ul className="flex justify-center items-center gap-4">
+    <div className="sticky top-0 py-4 bg-slate-800/80">
+      <ul className="flex justify-center items-center gap-2 sm:gap-3 md:gap-4">
         {colourList.map((item, index) => {
           return (
             <li
@@ -37,7 +37,7 @@ const Colour = ({
               }}
               className={cn(
                 "transition-[border]",
-                `w-12 h-12 p-2 rounded-full border-4 border-solid border-slate-500 hover:border-slate-100 cursor-pointer text-white flex justify-center items-center`,
+                `w-[10vw] h-[10vw] max-w-12 max-h-12 p-2 rounded-full border-4 border-solid border-slate-500 hover:border-slate-100 cursor-pointer text-white flex justify-center items-center`,
                 item,
                 bgColour === item && "border-slate-100"
               )}
