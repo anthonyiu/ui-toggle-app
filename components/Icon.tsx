@@ -16,7 +16,7 @@ const Icon = ({
       onClick={() => setIsOn((prev) => !prev)}
     >
       <div
-        className={`icon-div w-[10vw] h-[10vw] max-w-20 max-h-20 flex justify-center items-center p-4 rounded-full text-slate-50 transition-[background] ease-in-out duration-300  ${
+        className={`icon-div w-[10vw] h-[10vw] max-w-20 max-h-20 flex justify-center items-center p-2 sm:p-4 md:p-5 rounded-full text-slate-50 transition-[background] ease-in-out duration-300  ${
           IsOn ? `${bgColour}` : "bg-slate-600"
         }`}
       >
