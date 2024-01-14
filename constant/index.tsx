@@ -7,6 +7,10 @@ import {
   FaBoltLightning,
   FaBomb,
   FaDownload,
+  FaAmilia,
+  FaAppleWhole,
+  FaArrowRightLong,
+  FaLemon,
 } from "react-icons/fa6";
 import { HiMiniSpeakerWave } from "react-icons/hi2";
 import { HiMiniSpeakerXMark } from "react-icons/hi2";
@@ -42,12 +46,13 @@ import { HiOutlineQrcode } from "react-icons/hi";
 import { IoMdBed } from "react-icons/io";
 import { SiDuckduckgo } from "react-icons/si";
 import { TbMoodKidFilled } from "react-icons/tb";
-import { PiPhoneCallFill } from "react-icons/pi";
+import { PiNumberCircleFourFill, PiPhoneCallFill } from "react-icons/pi";
 
 import { FaBanSmoking } from "react-icons/fa6";
 
 import { iconType } from "@/type";
 import { IoWatch } from "react-icons/io5";
+import { GiGrapes, GiStrawberry } from "react-icons/gi";
 
 export const iconList: iconType[] = [
   {
@@ -154,10 +159,10 @@ export const iconList: iconType[] = [
     iconOn: <IoMdBed />,
     textOn: "Bedtime mode",
   },
-  {
-    iconOn: <SiDuckduckgo />,
-    textOn: "App Tracking Protection",
-  },
+  // {
+  //   iconOn: <SiDuckduckgo />,
+  //   textOn: "App Tracking Protection",
+  // },
   {
     iconOn: <TbMoodKidFilled />,
     textOn: "Kids",
@@ -213,5 +218,33 @@ export const iconList: iconType[] = [
   {
     iconOn: <MdDownloadDone />,
     textOn: "Tick done",
+  },
+  // {
+  //   iconOn: <FaAmilia />,
+  //   textOn: "Amilia",
+  // },
+  {
+    iconOn: <FaAppleWhole />,
+    textOn: "Pinllady Apple",
+  },
+  {
+    iconOn: <FaArrowRightLong />,
+    textOn: "Arrow Right",
+  },
+  {
+    iconOn: <PiNumberCircleFourFill />,
+    textOn: "Four",
+  },
+  {
+    iconOn: <GiStrawberry />,
+    textOn: "Strawberry",
+  },
+  {
+    iconOn: <GiGrapes />,
+    textOn: "Grapes",
+  },
+  {
+    iconOn: <FaLemon />,
+    textOn: "Lemon",
   },
 ];
