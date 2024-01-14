@@ -23,7 +23,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "http://localhost:3000/",
+  "start_url": "http://ui-toggle-app.vercel.app/",
   "background_color": "#67e8f9",
   "display": "fullscreen",
   "theme_color": "#67e8f9",
