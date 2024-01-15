@@ -11,6 +11,8 @@ import {
   FaAppleWhole,
   FaArrowRightLong,
   FaLemon,
+  FaBowlRice,
+  FaRegSnowflake,
 } from "react-icons/fa6";
 import { HiMiniSpeakerWave } from "react-icons/hi2";
 import { HiMiniSpeakerXMark } from "react-icons/hi2";
@@ -18,19 +20,22 @@ import { SiNfc, SiProtonvpn } from "react-icons/si";
 import {
   MdDownloadDone,
   MdOutlineScreenRotation,
+  MdRamenDining,
   MdStar,
 } from "react-icons/md";
 import { MdOutlineScreenLockPortrait } from "react-icons/md";
 import { MdOutlineFlight } from "react-icons/md";
 import { IoMdFlashlight } from "react-icons/io";
 import {
+  TbCloudSnow,
   TbDeviceDesktopSearch,
+  TbGlobeOff,
   TbMobiledata,
   TbMusicShare,
 } from "react-icons/tb";
 import { RiHotspotFill } from "react-icons/ri";
 import { MdEnergySavingsLeaf } from "react-icons/md";
-import { FaMapMarkerAlt, FaClosedCaptioning } from "react-icons/fa";
+import { FaMapMarkerAlt, FaClosedCaptioning, FaPenAlt } from "react-icons/fa";
 import { SiDolby } from "react-icons/si";
 import { FiTarget } from "react-icons/fi";
 import { FaWindows } from "react-icons/fa6";
@@ -246,5 +251,33 @@ export const iconList: iconType[] = [
   {
     iconOn: <FaLemon />,
     textOn: "Lemon",
+  },
+  {
+    iconOn: <span>10</span>,
+    textOn: "Ten",
+  },
+  {
+    iconOn: <FaPenAlt />,
+    textOn: "Pen",
+  },
+  {
+    iconOn: <MdRamenDining />,
+    textOn: "Ramen",
+  },
+  {
+    iconOn: <TbGlobeOff />,
+    textOn: "Globe Off",
+  },
+  {
+    iconOn: <FaBowlRice />,
+    textOn: "Rice",
+  },
+  {
+    iconOn: <FaRegSnowflake />,
+    textOn: "Snowflake",
+  },
+  {
+    iconOn: <TbCloudSnow />,
+    textOn: "Cloud Snow",
   },
 ];

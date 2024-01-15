@@ -22,7 +22,7 @@ const Icon = ({
         className={cn(
           "icon-div w-[12vw] h-[12vw] max-w-20 max-h-20 flex justify-center items-center p-3 sm:p-4 md:p-5 rounded-full text-slate-50 transition-[background] ease-in-out duration-300",
           IsOn ? bgColour : "bg-slate-600",
-          IsOn && animation[Math.floor(Math.random() * animation.length)]
+          IsOn && animation[1]
         )}
       >
         {IsOn ? iconOn : iconOff || iconOn}

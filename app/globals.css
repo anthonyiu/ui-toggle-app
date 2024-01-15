@@ -6,6 +6,11 @@ body {
   @apply bg-slate-900;
 }
 
-.icon-div > svg {
+.icon-div > svg,
+.icon-div > span {
   @apply w-full h-full;
+}
+
+.icon-div > span {
+  @apply flex justify-center items-center text-2xl font-bold;
 }
